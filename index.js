@@ -109,7 +109,7 @@ var maven = {
                 return;
             }
             var filePath = path.join(base, file);
-            var data = fs.readFileSync(filePath, {encoding: 'utf-8'});
+            var data = fs.readFileSync(filePath);
             war.file(path.relative(config.buildDir, filePath), data);
         });
 
