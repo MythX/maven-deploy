@@ -1,7 +1,7 @@
 {
-  "name": "maven-deploy",
-  "version": "0.0.1",
-  "description": "A simple Node.js module to create a war-/jar-package and install/deploy to a local/remote Maven repository",
+  "name": "mvn-deploy",
+  "version": "0.0.4",
+  "description": "A simple Node.js module to create a war-/jar-package",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,11 +10,11 @@
     "maven",
     "deploy"
   ],
-  "homepage": "https://github.com/finn-no/maven-deploy",
-  "bugs": "https://github.com/finn-no/maven-deploy/issues",
+  "homepage": "https://github.com/mythx/maven-deploy",
+  "bugs": "https://github.com/mythx/maven-deploy/issues",
   "repository": {
     "type": "git",
-    "url": "git@github.com:finn-no/maven-deploy.git"
+    "url": "git@github.com:mythx/maven-deploy.git"
   },
   "author": "MythX",
   "contributors": [
